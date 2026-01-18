@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    --background: 40 35% 95%;
-    --foreground: 120 25% 20%;
+    --background: 42 28% 93%;
+    --foreground: 145 30% 18%;
 
     --card: 40 35% 95%;
     --card-foreground: 120 25% 20%;
@@ -15,8 +15,8 @@
     --popover: 40 35% 95%;
     --popover-foreground: 120 25% 20%;
 
-    --primary: 120 25% 20%;
-    --primary-foreground: 40 35% 95%;
+    --primary: 145 30% 18%;
+    --primary-foreground: 42 28% 93%;
 
     --secondary: 120 25% 25%;
     --secondary-foreground: 40 35% 95%;
@@ -30,9 +30,9 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 120 20% 30%;
-    --input: 120 20% 30%;
-    --ring: 120 25% 20%;
+    --border: 145 30% 18%;
+    --input: 145 30% 18%;
+    --ring: 145 30% 18%;
 
     --radius: 0rem;
 
@@ -99,20 +99,5 @@
 
   body {
     @apply bg-background text-foreground;
-    background-image:
-      repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(47, 79, 47, 0.02) 2px,
-        rgba(47, 79, 47, 0.02) 4px
-      ),
-      repeating-linear-gradient(
-        90deg,
-        transparent,
-        transparent 2px,
-        rgba(47, 79, 47, 0.02) 2px,
-        rgba(47, 79, 47, 0.02) 4px
-      );
   }
 }
