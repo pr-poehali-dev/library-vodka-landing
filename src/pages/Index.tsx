@@ -4,7 +4,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4 sm:p-6">
       <div className="w-full max-w-md">
-        <div className="border-2 border-primary p-8 sm:p-12 space-y-8 sm:space-y-12">
+        <div className="border border-primary/40 p-8 sm:p-12 space-y-8 sm:space-y-12 bg-background/80 backdrop-blur-sm shadow-lg" style={{ boxShadow: '0 4px 20px rgba(47, 79, 47, 0.08)' }}>
           <div className="text-center space-y-3 sm:space-y-4">
             <h1 
               className="text-4xl sm:text-5xl md:text-6xl text-primary leading-tight tracking-tight"
@@ -63,13 +63,24 @@ export default function Index() {
                 VK
               </Button>
             </a>
+
+            <a href="tel:+79231102876" className="block">
+              <Button 
+                variant="outline" 
+                className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+              >
+                Позвонить нам
+              </Button>
+            </a>
           </div>
 
-          <div className="pt-6 sm:pt-8 border-t border-primary/30">
+          <div className="pt-6 sm:pt-8 border-t border-primary/20">
             <p 
               className="text-xs sm:text-sm text-center text-muted-foreground leading-relaxed"
               style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 300 }}
             >
+              +7 (923) 110-28-76<br />
               Красный проспект, 28 · Новосибирск<br />
               17:00–01:00 · ПТ–СБ до 03:00
             </p>
