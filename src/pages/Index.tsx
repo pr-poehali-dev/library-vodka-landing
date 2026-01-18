@@ -7,17 +7,17 @@ export default function Index() {
         <div className="border border-primary/40 p-8 sm:p-12 space-y-8 sm:space-y-12 bg-background/80 backdrop-blur-sm shadow-lg" style={{ boxShadow: '0 4px 20px rgba(47, 79, 47, 0.08)' }}>
           <div className="text-center space-y-3 sm:space-y-4">
             <h1 
-              className="text-4xl sm:text-5xl md:text-6xl text-primary leading-tight tracking-tight"
-              style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 600 }}
+              className="text-5xl sm:text-6xl md:text-7xl text-primary leading-tight"
+              style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, letterSpacing: '-0.02em' }}
             >
               Библиотека водок
             </h1>
             <div 
-              className="w-16 h-px bg-primary mx-auto"
+              className="w-20 h-px bg-primary mx-auto"
             />
             <p 
-              className="text-sm sm:text-base text-primary tracking-widest uppercase"
-              style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 300, letterSpacing: '0.15em' }}
+              className="text-sm sm:text-base text-primary tracking-wide uppercase"
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 400, letterSpacing: '0.2em' }}
             >
               Каталог вкусов
             </p>
@@ -28,7 +28,7 @@ export default function Index() {
               <Button 
                 variant="outline" 
                 className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
               >
                 Меню / каталог настоек
               </Button>
@@ -38,7 +38,7 @@ export default function Index() {
               <Button 
                 variant="outline" 
                 className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
               >
                 Telegram
               </Button>
@@ -48,7 +48,7 @@ export default function Index() {
               <Button 
                 variant="outline" 
                 className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
               >
                 Instagram
               </Button>
@@ -58,7 +58,7 @@ export default function Index() {
               <Button 
                 variant="outline" 
                 className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
               >
                 VK
               </Button>
@@ -68,7 +68,7 @@ export default function Index() {
               <Button 
                 variant="outline" 
                 className="w-full h-14 sm:h-16 text-base sm:text-lg border-2 border-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 400 }}
+                style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 500 }}
               >
                 Позвонить нам
               </Button>
@@ -78,7 +78,7 @@ export default function Index() {
           <div className="pt-6 sm:pt-8 border-t border-primary/20">
             <p 
               className="text-xs sm:text-sm text-center text-muted-foreground leading-relaxed"
-              style={{ fontFamily: "'Alegreya Sans', sans-serif", fontWeight: 300 }}
+              style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}
             >
               +7 (923) 110-28-76<br />
               Красный проспект, 28 · Новосибирск<br />
